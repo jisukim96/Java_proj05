@@ -17,8 +17,8 @@ public class TypeCasting1 {
 		
 		System.out.println(value1);	// 5
 		System.out.println(value2); // 10
-		System.out.println(value3);
-		System.out.println(value4);
+		System.out.println(value3); // 5.8
+		System.out.println(value4); // 10.5
 
 		System.out.println("============================");
 		
@@ -32,14 +32,12 @@ public class TypeCasting1 {
 		float value7 = 5.8f;
 		float value8 = 5.8F;
 		
-		System.out.println(value5);
-		System.out.println(value6);
-		System.out.println(value7);
-		System.out.println(value8);
+		System.out.println(value5); // 10
+		System.out.println(value6); // 20
+		System.out.println(value7); // 5.8
+		System.out.println(value8); // 5.8
 		
-		
-		
-		
+				
 	}
 
 }
