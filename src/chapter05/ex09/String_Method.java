@@ -98,8 +98,8 @@ public class String_Method {
 		System.out.println(arr3[0]); 	// H
 		
 		// 5. 문자열 수정 , 대문자로 출력 toUpperCase(), 소문자로 변환 : toLowerCase();
-		System.out.println(str1.toLowerCase()); 	// 소문자
-		System.out.println(str1.toUpperCase()); 	// 소문자
+		System.out.println(str10.toLowerCase()); 	// 소문자
+		System.out.println(str10.toUpperCase()); 	// 소문자
 		
 		System.out.println("=====================");
 		
@@ -128,7 +128,7 @@ public class String_Method {
 		 
 		 System.out.println("=======================");
 		 
-		 // 6. 문자열의 내용비교 ( equals(), equalsIgnoreCase())
+		 // 7. 문자열의 내용비교 ( equals(), equalsIgnoreCase())
 		 
 		 	// equals() : Heap의 값을 비교 , 대문자 소문자까지 체크
 		 	//equalsIgnoreCase() : Heap의 값비교, 대,소문자를 체크하지않고 비교

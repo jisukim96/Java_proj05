@@ -73,12 +73,6 @@ public class Field_Component {
 		b.work1();
 		
 		
-		
-		
-		
-		
-		
-		
 	}
 
 }
