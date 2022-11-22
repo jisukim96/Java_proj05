@@ -4,7 +4,7 @@ class Student{
 	
 	//필드선언
 	String stuName;		//학생이름
-	int stuNum;		//학번
+	int stuNum;			//학번
 	String stuAddr;		//학생의 주소
 	String stuPhone;	//학생의 전화번호
 	double weight;		//학생의 몸무게
