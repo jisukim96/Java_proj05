@@ -1,11 +1,10 @@
 package chapter09.ex03;
 
 class Student{
-	String stuName;		// 학생이름
+	String stuName;		// 학생이름 인스턴스 필드
 	static int stuNo;	// 학생 수 : 모든 객체에서 공유되는 필드 , 객체가 생성될 때마다 학생수가 늘어난다.
 						// 객체 생성 시 하나씩 늘어나도록 함.
-	String stuAdd;		// 학생 주소
-	
+	String stuAdd;		// 학생 주소 (인스턴스 필드)
 	
 	// static 필드의 초기값 할당 , 클래스 로딩시 제일 먼저 작동
 	static {

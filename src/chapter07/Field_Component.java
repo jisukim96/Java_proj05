@@ -18,7 +18,6 @@ class A{	// A 클래스 : 객체를 생성하기 위한 틀.
 		System.out.println(c);
 		System.out.println(d);
 	}
-	
 }
 
 class B{
@@ -42,8 +41,6 @@ class B{
 	}
 }
 
-
-
 public class Field_Component {
 
 	public static void main(String[] args) {
@@ -65,13 +62,10 @@ public class Field_Component {
 		A bcd = new A();
 		bcd.defaultValue();
 		
-		
-		
 		System.out.println("===============");
 		
 		B b = new B();
 		b.work1();
-		
 		
 	}
 

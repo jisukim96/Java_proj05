@@ -10,7 +10,7 @@ class D{
 		System.out.println(" 클래스 A 가 JVM에 로딩되었습니다. ");
 	}
 	
-	// 생상자를 사용해서 초기값 할당 : a 필드
+	// 생성자를 사용해서 초기값 할당 : a 필드
 	D(){
 		a = 10;
 	}
@@ -30,5 +30,4 @@ public class Static_Initial_Block {
 		System.out.println(d1.a);
 		
 	}
-
 }
