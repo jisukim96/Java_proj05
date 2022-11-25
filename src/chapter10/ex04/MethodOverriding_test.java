@@ -67,7 +67,7 @@ public class MethodOverriding_test {
 		System.out.println("=======================");
 		
 		// 2. Tiger 객체를 생성하면서 Tiger 타입으로 지정
-		// t1은 Animal,Tiger를 내포하고 있고, Tiger 타입으로 지정(Animal, Tiger 접근) *시작
+		// t1은 Animal,Tiger를 내포하고 있고, Tiger 타입으로 지정(Animal, Tiger 접근)
 		Tiger t1 = new Tiger();
 		// 부모의 필드와 메소드 호출
 		t1.name = "호랑이1";
