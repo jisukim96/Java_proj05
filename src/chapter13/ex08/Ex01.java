@@ -85,11 +85,11 @@ public class Ex01 {
 				System.out.println("닭이 지붕위를 납니다");
 			}		};
 		
-		// 참조변수 입력하여 출력
+		// 객체의 메소드 매개변수로 참조타입을 넣어서 호출
 		b3.cde(a);
 		
 		
-		// 4 참조변수에 new키 입력하여 출력
+		// 4 참조변수에 new키 입력하여 출력  "가장 많이 사용하는 방법"
 		System.out.println("\n4. 객체 메소드의 인풋 매개변수로 Animal 타입을 인풋받아서 출력 : 참조변수 없이 출력");
 		b3.cde(new Animal() {
 			@Override

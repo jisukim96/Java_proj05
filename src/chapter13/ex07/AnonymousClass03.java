@@ -20,7 +20,7 @@ public class AnonymousClass03 {
 	public static void main(String[] args) {
 
 //		호출하기위해 C객체 생성
-		C c =new C();
+		C c = new C();
 		
 //	 3. 인터페이스를 구현한 클래스는 없고, 참조변수를 생성 후 참조변수를 매개변수로 입력 후 출력
 //		참조 변수 생성 : 인터페이스를 구현한 익명클래스를 생성 
