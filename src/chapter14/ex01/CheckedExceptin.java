@@ -27,7 +27,7 @@ public class CheckedExceptin {
 //		 Thread.sleep(1000); 	// 쓰레드를 멈춘다.
 		 
 //		 1-2. ClassNotFoundException : 클래스를 찾지 못했을 때 발생하는 예외
-//		 Class cls = Class.forName("java.lang.Object");
+//		 Class cls = Class.forName("java.lang.Object");	///커넥션개체찾는(호출하는)클래스
 
 //		 1-3. IOException : Input,Output 시 발생되는 예외
 		 InputStreamReader in = new InputStreamReader(System.in);

@@ -27,9 +27,9 @@ class B{
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-	}
+	}					// Exception 도 가능
 	void bcd() throws InterruptedException { //bcd() 메소드를 호출하는 곳에서 예외를 처리하도록 미룬다.
-		Thread.sleep(1000); 	// 일반예외 - 2. 전가
+		Thread.sleep(1000); 	// 일반예외 - 2. 전가 
 	}
 }
 
