@@ -17,7 +17,7 @@ class GenericMethods {
 //	제너릭에 넣는 타입변수 T에 올 수 있는 것은 기본 타입은 넣을 수 없다.wrapper 클래스만 올 수 있다.
 	public <T> boolean method2 ( T t1,T t2){	//t1과 t2의 값이 같고 다름을 boolean 으로  
 		return t1.equals(t2);
-	}
+	}	// T로 들어오는 타입이 다양하기 때문에 Object 메소드인 equals를 사용해서 받는다.
 	
 	//<>를 생략하고 값 넣어도 됨
 	public <K,V> void method3(K k, V v) {
@@ -72,7 +72,7 @@ public class GenericMethod {
 		gm.method3(100, 2000);
 		gm.<Integer,Double>method3(1000,30.33);
 		
-//		gm.<String,Void>method3("안녕",);
+//		gm.<String,Void>method3("안녕");
 		
 		//유추할수 있는 경우에는 제너릭 생략 가능 = Void?
 	}

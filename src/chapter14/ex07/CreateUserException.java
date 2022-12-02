@@ -60,8 +60,7 @@ class A {
 			System.out.println("사용자 정의 예외 2 발생됨.");
 			System.out.println(e.getMessage());
 			//e.printStackTrace();
-		}
-		
+		}		
 	}
 }
 
@@ -88,10 +87,6 @@ public class CreateUserException {
 		a.bcd_1();
 		System.out.println("=======================");
 		a.bcd_2();
-		
-
-		
-		
+				
 	}
-
 }

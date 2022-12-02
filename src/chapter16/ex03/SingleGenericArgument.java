@@ -57,14 +57,6 @@ public class SingleGenericArgument {
 		MyClass <Double> do1 = new MyClass<>();
 		do1.set(10.11);
 		System.out.println(do1.get());
-		
-		
-		
-		
-		
-		
-		
-		
+					
 	}
-
 }

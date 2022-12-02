@@ -1,6 +1,7 @@
 package chapter16.ex04;
 
 // 제너릭 클래스 : 타입변수가 2개인 제너릭 클래스 < K,V>
+// 자주 사용하는 약어
 	// T : Type
 	// K : Key
 	// V : Value
@@ -65,10 +66,8 @@ public class TwoGenericArguments {
 		
 		// 3. <Stirng,Void>			<== Void : 해당 필드를 사용하지 않겠다. 주의 : 대문자<<Void>>
 		KeyValue<String,Void>kv3 = new KeyValue<>();
-		kv3.setKey("키 값만 사용");
+		kv3.setKey("키 값만 사용"); //setValue 사용안함
 		System.out.println(kv3.getKey());
 		
-		
 	}
-
 }
