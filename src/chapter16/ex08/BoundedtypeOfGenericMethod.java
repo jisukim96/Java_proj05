@@ -24,7 +24,7 @@ class B {
 	}
 }
 
-public class BoundtypeOfGenericMethod {
+public class BoundedtypeOfGenericMethod {
 
 	public static void main(String[] args) {
 

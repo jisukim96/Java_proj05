@@ -13,7 +13,7 @@ public class CreatListObject {
 
 	public static void main(String[] args) {
 		// 참고로 알아두는 몰라도 상관없는 내용
-		// 1.
+		// 1.ArrayList
 		List<Integer> aList1 = new ArrayList<Integer>();	// 내부적으로 메모리 공간을 10개를 확보함.
 //		List<Integer> aList1 = new ArrayList<>();
 //		List<Integer> aList1 = new ArrayList();	  같은 명령문 뒤에 <>생략 가능
